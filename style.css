@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Navbar */
+header {
+    background: #0b132b;
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons .btn {
+    padding: 8px 15px;
+    background: #1c2541;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.auth-buttons .btn-outline {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1607083202964-52f25f6df4e6') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #0b132b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
